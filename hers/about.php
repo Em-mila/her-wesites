@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/herstyle.css">
+        <title>About you</title>
+    </head>
+    <body>
+        <div class="upbar">
+            <nav>
+                <ul>
+                    <li><a href="lover.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="stories.php">Stories</a></li>
+                    <li><a class="special" href="ecard.php">Special Edition</a></li>
+                </ul>
+            </nav>
+            </div>
+        <style>
+            p {padding: 0.3em;
+                text-align: justify;
+                text-justify: inter-word;
+                margin-bottom: 10px;
+                line-height: 1.2;
+                font-size: 23px;
+                margin: 40px;}
+            h1{padding-left: 5px;}
+            </style>
+
+            <div class="pagination-buttons">
+            <button class="arrow-btn right" onclick="goToNextPage()"><a href="nextpage.php">Next &#8594;</a></button>
+        </div>
+    <body>
+        <main class="content">
+            <section class="part">
+        <h1>About Her &hearts;</h1>
+        <p>
+            Fitri Febriana is not just "a girl", she's my world. She's the most lovely person i know.
+            She was born on 1st February 1997, one of the Aquarius babies. Yup,cold. Like a 28 doors refrigator.
+            I still can't believe that i was the one who could melt her heart and made her mine.
+            She lives in West Java Province. So far from my city. She's an introvert, hate crowded room so much.
+            She prefer to sit in a Cafe alone with a cup of warm coffee and her favorite book. She loves reading poem.
+            I found it really clever, because it's hard to find people who likes reading poem book.
+            Bunch of people rather to read novel or comics instade of poems.
+            She's really a calm person, loves chill and really not a fan of something 'complicated'.
+            Her heart is the most beautiful thing of her. Her heart isn't made of a metal,it was made of flowers.
+            Yes,just like flowers...Beautiful inside out,unique,colorful and full of butterflies. Like once you see the true color of her heart,
+            you will fall in love easily. She always thinks that she isn't a romantic person nor a sweet person,but i 100% disagree with that.
+            She doesn't know how worthy she is, how 'more than enough' she is for me right now.
+        
+        <br>She got a biggest power of controlling me. The master of my heart,my body,my energy,everything.
+            She could easily make me feel butterflies in all over my stomacs then fuck it up easily,
+            She could raise my energy so hype then make me mellow,
+            She could litteraly make me sad but horny at the same time.
+            She is the best thing that happened in my 2023. She's everything for me. The love of my life.
+            <p>-Jan 2024-</p>
+        </br>
+        </p>
+        </section>
+        </main>
+    </body>
+    <footer>
+        <p>Social Media</p>
+<ul>
+    <li><a href="https://www.instagram.com/ftrfbrna_">Instagram</a></li>
+    <li><a href="https://www.facebook.com/ftr.febrianaa">Facebook</a></li>
+</ul>
+</footer>
+</html>

@@ -1,0 +1,155 @@
+main {
+    background-color: rgb(235, 250, 224);
+    margin: 1em;
+    padding-bottom: 15%;
+    }
+
+body {
+    background-color: rgb(157, 193, 131);
+    font-family: serif;
+}
+
+.upbar {
+    background-color: rgb(63, 110, 30);
+    text-align: center;
+    padding: 1em;
+}
+
+.upbar ul a {
+    text-align:justify;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    text-size-adjust: 20%;
+    color:#ebfae0;
+    text-decoration: none;
+    padding: 50px 80px;
+    font-size: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+.pagination-buttons {
+    position: fixed;
+    bottom: 20px; /* Jarak dari bawah layar */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between; /* Pisahkan tombol ke kiri dan kanan */
+    padding: 0 20px;
+  }
+  
+  .arrow-btn {
+    pointer-events: auto; /* Aktifkan pointer hanya untuk tombol */
+    padding: 10px 20px;
+    background-color: rgb(63, 110, 30); /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .arrow-btn:hover {
+    background-color: rgb(92, 122, 70); /* Warna saat hover */
+  }
+  
+  button a {
+    color:#ebfae0;
+    text-decoration: none;
+  }
+
+  .arrow-btn.left {
+    text-align: left;
+    margin: 1em;
+  }
+  
+  .arrow-btn.right {
+    text-align: right;
+    margin: 1em;
+  }
+  
+
+.special {
+    opacity: 100%;
+    font-family: serif bold;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff94d, 0 0 40px #fff94d, 0 0 50px #fff94d, 0 0 60px #fff94d, 0 0 70px #fff94d;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 249, 77), 0 0 40px #fff94d, 0 0 50px #fff94d, 0 0 60px #fff94d, 0 0 70px #fff94d, 0 0 80px #fff94d;
+    }
+  }
+
+nav li a:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 60px;
+    padding-left: 2em;
+    padding-top: 0.1em;
+    color:#3f6e1e;
+    text-shadow:#9DC183;
+}
+
+.part img {
+    float: left;
+    padding: 4em;
+    width: 296px; 
+    height: 466px;
+    padding-left: 8em;
+    padding-top: 2em;
+}
+
+p {
+    color: #3f6e1e;
+    font-size: 34px;
+    font-style:italic;
+    padding-top: 1em;
+    opacity: 60%;
+}
+
+footer {
+    text-align: center;
+    color: #ebfae0;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: none;
+    color: #ebfae0;
+    opacity: 100%;
+    font-size: 20px;
+
+}
+footer ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #ebfae0;
+    padding: 14px 16px; 
+    opacity: 0.6;
+    font-family: serif bold;
+}
+
+footer li a:hover {
+    opacity: 1;
+}

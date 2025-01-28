@@ -1,0 +1,111 @@
+main {
+    background-color: rgb(206, 159, 178);
+    margin: 1em;
+    padding-bottom: 15%;
+    }
+
+body {
+    background-color: rgb(248, 200, 220);
+    font-family: serif;
+}
+
+.upbar {
+    background-color: rgb(245, 24, 116);
+    text-align: center;
+    padding: 1em;
+}
+
+.upbar ul a {
+    text-align:justify;
+}
+
+nav li{
+    list-style: none;
+    display:inline-block;
+}
+
+nav li a {
+    text-size-adjust: 20%;
+    color:#ebfae0;
+    text-decoration: none;
+    padding: 50px 80px;
+    font-size: 40px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.special {
+    opacity: 100%;
+    font-family: serif bold;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff94d, 0 0 40px #fff94d, 0 0 50px #fff94d, 0 0 60px #fff94d, 0 0 70px #fff94d;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 249, 77), 0 0 40px #fff94d, 0 0 50px #fff94d, 0 0 60px #fff94d, 0 0 70px #fff94d, 0 0 80px #fff94d;
+    }
+  }
+
+nav li a:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 60px;
+    padding-left: 2em;
+    padding-top: 0.1em;
+    color:#000000;
+    text-shadow:#cacaca;
+}
+
+.part img {
+    float: left;
+    padding: 4em;
+    width: 296px; 
+    height: 456px;
+    padding-left: 8em;
+    padding-top: 2em;
+}
+
+p {
+    color: #000000;
+    font-size: 34px;
+    font-style:italic;
+    padding-top: 1em;
+    opacity: 60%;
+}
+
+footer {
+    text-align: center;
+    color: #ebfae0;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: none;
+    color: #ebfae0;
+    opacity: 100%;
+    font-size: 20px;
+
+}
+footer ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #ebfae0;
+    padding: 14px 16px; 
+    opacity: 0.6;
+    font-family: serif bold;
+}
+
+footer li a:hover {
+    opacity: 1;
+}
